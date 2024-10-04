@@ -33,9 +33,34 @@ import Layout from '../layouts/Layout.astro';
 			</p>
 		</div>
 
-		<hr class="my-4 h-1 max-w-screen-md w-full bg-white">
+	</div>
+	<div class="flex flex-col items-center justify-center min-h-screen bg-neutral-900">
+		<h2 class="text-3xl bg-gradient-to-r from-red-500 to-purple-500 text-transparent bg-clip-text">
+			Limitations with current mail merge services
+		</h2>
 
-		<h2 class="text-2xl">
+		<div class="flex flex-col gap-4 mt-8 max-w-screen-md text-lg">
+			<p>
+				RVCE email accounts are not supported by most mail merge services.
+			</p>
+			<p>
+				This is because two-factor authentication cannot be enabled on RVCE email accounts.
+				Accessing Gmail using SMTP requires app-specific passwords, which can only be created
+				if two-factor authentication is enabled.
+			</p>
+			<p>
+				Our current working idea is to somehow make this accessible to students, and create
+				a mail merge service that is accessible and well-integrated.
+			</p>
+			<p>
+				We aim to keep our service free of cost, and open-source.
+			</p>
+		</div>
+	</div>
+	
+	
+	<div class="flex flex-col items-center justify-center min-h-screen bg-neutral-900">
+		<h2 class="text-3xl bg-gradient-to-r from-blue-500 to-green-500 text-transparent bg-clip-text">
 			Initial Experiment
 		</h2>
 
@@ -57,15 +82,13 @@ import Layout from '../layouts/Layout.astro';
 			</p>
 		</div>
 
-		<hr class="my-4 h-1 max-w-screen-md w-full bg-white">
-
-		<h2 class="text-2xl">
-			Current Methodology
+		<h2 class="mt-8 text-3xl bg-gradient-to-r from-purple-500 to-red-500 text-transparent bg-clip-text">
+			Current Strategy
 		</h2>
 
 		<div class="flex flex-col gap-4 mt-8 max-w-screen-md">
 			<p>
-				Collecting user responses online will <b>not</b> be a part of our methodology.
+				Collecting user responses online will <b>not</b> be a part of our empathy strategy.
 				Since our project itself is about email surveys, we do not believe that they are
 				a feasible method to collect feedback and user responses.
 			</p>
@@ -73,8 +96,9 @@ import Layout from '../layouts/Layout.astro';
 				All interviews will be conducted in-person.
 			</p>
 		</div>
+	</div>
 
-		<div class="footer m-10">
+		<div class="footer p-10 bg-neutral-900">
 			<p class="text-neutral-500 text-center mt-8">
 				&copy; 2024 Shrish Deshpande
 			</p>
